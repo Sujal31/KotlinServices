@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(),CustomResultReceiver.AppReceive {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button.setOnClickListener(View.OnClickListener { if(mBound){ mService.downLoadImage("https://drive.google.com/uc?export=download&id=0Bz2rNlhjsD37M2hpbEJRMlZLSGotUFZRRF9NbHhVcHFqeWpZ")} })
+        button.setOnClickListener(View.OnClickListener { if(mBound){ mService.downLoadImage("https://drive.google.com/uc?export=download&id=1X-wVujsCHL9fTCDwbI2gWTuLfVwRSeBx")} })
 
     }
 
